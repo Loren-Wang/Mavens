@@ -3,26 +3,20 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.pictureOption.android</groupId>
-  <artifactId>pictureselect</artifactId>
+  <artifactId>basePictureOptions</artifactId>
   <version>1.0</version>
   <packaging>aar</packaging>
   <dependencies>
     <dependency>
-      <groupId>com.android.support.constraint</groupId>
-      <artifactId>constraint-layout</artifactId>
-      <version>1.0.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>com.android.support</groupId>
-      <artifactId>design</artifactId>
-      <version>26.1.0</version>
+      <artifactId>appcompat-v7</artifactId>
+      <version>27.0.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>PictureOptions</groupId>
-      <artifactId>basePictureOptions</artifactId>
-      <version>unspecified</version>
+      <groupId>com.github.bumptech.glide</groupId>
+      <artifactId>glide</artifactId>
+      <version>4.6.1</version>
       <scope>compile</scope>
     </dependency>
   </dependencies>
